@@ -4,8 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="data:," />
     <title>LANCHESS</title>
+
+      <style>
+        body {
+          margin: 0;
+          height: 100dvh;
+          display: grid;
+          place-items: center;
+          background: #8EB1C7;
+        }
+
+        .qr {
+          --gap: clamp(48px, 7.5vmin, 96px);
+          width: calc(100vmin - 2 * var(--gap));
+          aspect-ratio: 1;
+          background: #D33F49;
+        }
+      </style>
   </head>
 
   <body>
+    <div class="qr"></div>
   </body>
 </html>
